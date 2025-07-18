@@ -3,6 +3,10 @@
   font-weight: 400;
   font-style: normal;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /* Shared css */
 .width{
@@ -14,6 +18,9 @@
 }
 .secondary-color{
     color: #E55473;
+}
+.text-color{
+    color: #fff;
 }
 .bg-green{
     background-color: rgba(186, 186, 186, 1);
@@ -141,6 +148,34 @@
  
 }
 
+/* latest-deal section */
+.latest-deal{
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin-top: 128px;
+    text-align: center;
+    padding: 122px 0;
+}
+
+.latest-deal-search input{
+    padding: 20px 200px 20px 20px;
+    border: none;
+    border-radius: 8px;
+}
+/* footer */
+footer{
+    background-color: #111010;
+    text-align: center;
+    margin-top: 128px;
+}
+.footer-content{
+    padding: 100px;
+}
+footer h5{
+    color: lightslategray;
+    margin-top: 20px;
+}
+
 
 
 
@@ -183,7 +218,10 @@
         gap: 50px;
     }
 
-    /* Sale section */
+    /* deals section */
+    .latest-deal-search input{
+        padding: 20px 50px 20px 10px;
+    }
 
 
 }
